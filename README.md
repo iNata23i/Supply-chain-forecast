@@ -1,5 +1,5 @@
-## Supply Chain Forecasting for a Beverage Manufacturing Company
-#Project Overview
+# Supply Chain Forecasting for a Beverage Manufacturing Company
+## Project Overview
 This project focuses on forecasting delivery lead times within the supply chain of a beverage manufacturing company. By analyzing historical sales data, we aim to predict the time between order placement and delivery, enhancing operational efficiency and customer satisfaction.
 
 #Objectives
