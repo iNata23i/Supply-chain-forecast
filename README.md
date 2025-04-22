@@ -3,11 +3,9 @@
 This project focuses on forecasting delivery lead times within the supply chain of a beverage manufacturing company. By analyzing historical sales data, we aim to predict the time between order placement and delivery, enhancing operational efficiency and customer satisfaction.
 
 ## Objectives
-Predict Delivery Lead Time: Estimate the number of days between order date and delivery date.
-
-Identify Key Factors: Determine which variables most significantly impact delivery times.
-
-Provide Interactive Tool: Develop a user-friendly interface for stakeholders to obtain lead time predictions.
+- Predict Delivery Lead Time: Estimate the number of days between order date and delivery date.
+- Identify Key Factors: Determine which variables most significantly impact delivery times.
+- Provide Interactive Tool: Develop a user-friendly interface for stakeholders to obtain lead time predictions.
 
 ## Dataset
 The dataset comprises sales orders with the following relevant fields:
