@@ -10,15 +10,11 @@ This project focuses on forecasting delivery lead times within the supply chain 
 ## Dataset
 The dataset comprises sales orders with the following relevant fields:
 
-_OrderDate_: Date when the order was placed.
-
-_DeliveryDate_: Date when the order was delivered.
-
-WarehouseCode: Identifier for the warehouse processing the order.
-
-__ProductID_: Identifier for the product ordered.
-
-_OrderQuantity_: Number of units ordered.
+- _OrderDate_: Date when the order was placed.
+- _DeliveryDate_: Date when the order was delivered.
+- _WarehouseCode_: Identifier for the warehouse processing the order.
+- __ProductID_: Identifier for the product ordered.
+- _OrderQuantity_: Number of units ordered.
 
 ## Data Preprocessing
 Lead Time Calculation: Computed as the difference in days between _DeliveryDate_ and _OrderDate_.
