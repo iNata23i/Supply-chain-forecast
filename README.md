@@ -12,22 +12,22 @@ Provide Interactive Tool: Develop a user-friendly interface for stakeholders to 
 ## Dataset
 The dataset comprises sales orders with the following relevant fields:
 
-OrderDate: Date when the order was placed.
+_OrderDate_: Date when the order was placed.
 
-DeliveryDate: Date when the order was delivered.
+_DeliveryDate_: Date when the order was delivered.
 
 WarehouseCode: Identifier for the warehouse processing the order.
 
-_ProductID: Identifier for the product ordered.
+__ProductID_: Identifier for the product ordered.
 
-Order Quantity: Number of units ordered.
+_OrderQuantity_: Number of units ordered.
 
 ## Data Preprocessing
-Lead Time Calculation: Computed as the difference in days between DeliveryDate and OrderDate.
+Lead Time Calculation: Computed as the difference in days between _DeliveryDate_ and _OrderDate_.
 
 Data Cleaning: Removed entries with missing or negative lead times.
 
-Feature Selection: Chose WarehouseCode, _ProductID, and Order Quantity as predictors.
+Feature Selection: _Chose WarehouseCode_, __ProductID_, and _OrderQuantity_ as predictors.
 
 Encoding: Applied one-hot encoding to categorical variables.
 
