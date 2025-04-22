@@ -2,14 +2,14 @@
 ## Project Overview
 This project focuses on forecasting delivery lead times within the supply chain of a beverage manufacturing company. By analyzing historical sales data, we aim to predict the time between order placement and delivery, enhancing operational efficiency and customer satisfaction.
 
-#Objectives
+## Objectives
 Predict Delivery Lead Time: Estimate the number of days between order date and delivery date.
 
 Identify Key Factors: Determine which variables most significantly impact delivery times.
 
 Provide Interactive Tool: Develop a user-friendly interface for stakeholders to obtain lead time predictions.
 
-#Dataset
+## Dataset
 The dataset comprises sales orders with the following relevant fields:
 
 OrderDate: Date when the order was placed.
@@ -22,7 +22,7 @@ _ProductID: Identifier for the product ordered.
 
 Order Quantity: Number of units ordered.
 
-#Data Preprocessing
+## Data Preprocessing
 Lead Time Calculation: Computed as the difference in days between DeliveryDate and OrderDate.
 
 Data Cleaning: Removed entries with missing or negative lead times.
@@ -31,14 +31,14 @@ Feature Selection: Chose WarehouseCode, _ProductID, and Order Quantity as predic
 
 Encoding: Applied one-hot encoding to categorical variables.
 
-#Model Training
+## Model Training
 Utilized a Random Forest Regressor to model the relationship between the selected features and the delivery lead time.
 
 from sklearn.ensemble import RandomForestRegressor
 model = RandomForestRegressor(random_state=42)
 model.fit(X_train, y_train)
 
-#Interactive Demo with Gradio
+## Interactive Demo with Gradio
 To enhance accessibility, an interactive web interface was developed using Gradio. This allows users to input order details and receive immediate lead time predictions.
 
 Features:
@@ -65,7 +65,7 @@ gr.Interface(
 Output:
 Displays the estimated delivery lead time in days based on the input parameters.
 
-# Feature Importance
+## Feature Importance
 Analyzed the impact of each feature on the prediction to understand their significance.
 
 import matplotlib.pyplot as plt
@@ -75,13 +75,13 @@ coeffs.plot(kind='barh', figsize=(10, 6), title='Feature Importance on Lead Time
 plt.tight_layout()
 plt.show()
 
-#Business Value
+## Business Value
 Customer Insights: Identify customers contributing the most to revenue.
 
 Sales Team Performance: Evaluate which teams are securing significant deals.
 
 Strategic Planning: Inform decisions on bonuses, retention strategies, and resource allocation.
 
-#Conclusion
+## Conclusion
 This project demonstrates the application of machine learning techniques to predict delivery lead times, providing valuable insights for supply chain optimization in the beverage manufacturing industry.
 
